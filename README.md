@@ -9,16 +9,23 @@ https://www.youtube.com/watch?v=sUzQpd-Ku4o - video of jeff dean talk
 https://arxiv.org/pdf/1611.01578v1.pdf - RL for finding neural architectures
 http://mlg.eng.cam.ac.uk/yarin/blog_2248.html - uncertainty in neural nets
 
+## January 30 - Hacker Dojo
+https://arxiv.org/pdf/1603.03116v2.pdf - Low-rank pass-through RNN's follow-on to unitary rnn
+https://github.com/Avmb/lowrank-gru - theano code
+
 ## January 23 - HackerDojo
 https://arxiv.org/abs/1612.03242 - Stack Gan Paper  
 https://github.com/hanzhanggit/StackGAN - Code  
 
 ## January 16 - Hacker Dojo
 https://arxiv.org/pdf/1511.06464v4.pdf - Unitary Evolution RNN
+https://github.com/amarshah/complex_RNN - theano code
 
 ## January 9 - Hacker Dojo
 Cheuksan Edward Wang Talk  
 https://arxiv.org/pdf/1612.04642v1.pdf - rotation invariant cnn  
+https://github.com/deworrall92/harmonicConvolutions - tf code for harmonic cnn
+http://visual.cs.ucl.ac.uk/pubs/harmonicNets/index.html - blog post by authors
 
 ## January 2 - Hacker Dojo
 https://arxiv.org/pdf/1602.02218v2.pdf - using typing to improve RNN behavior  
