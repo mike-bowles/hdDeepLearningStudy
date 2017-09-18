@@ -2,17 +2,17 @@
 
 This document describes how to use spot instances on AWS.  
 Spot instances deliver a savings of almost 80% of the on-demand rate.
-However they get interrupted, potentially loosing data. 
+However they get interrupted, potentially losing data. 
 
 <http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/how-spot-instances-work.html>
 
 The key to utilizing spot instances is automation, especially around interruption.
-A simple workaround, is to use an EBS drive that automounts + a user data script that fires off will allows you to 
+A simple workaround, is to use an EBS drive that automounts + a user data script that fires off will allow you to 
 take advantage of cheaper spot instances and train your model for weeks at a time.
 
 Your spot bid price determines how often your instance get interrupted.  
-Set it low it will get interrupted moreoften, but you have a firmer handle on price certainity.
-Note, the price you pay is the lower of the bid, and the current spot pricing. 
+Set it low and it will get interrupted moreoften, but you have a firmer handle on price certainity.
+Note: the price you pay is the lower of the bid, and the current spot pricing. 
 Setting a bid to the on-demand rate would virtually guarantee never getting interrupted.
 
 Finally a S3 bucket is recommended to sync your results.
@@ -146,6 +146,6 @@ https://www.tensorflow.org/how_tos/variables/
 Setup your scripts to routinely dump with a step-id(use utc time), checkpoint every 30 minutes or so
 Then on restart the latest checkpoint is picked up.
 
-Note, you will loose some training time, but assuming the AMI stays up for 8 hours, 30 minutes is acceptable as max.
+Note, you will lose some training time, but assuming the AMI stays up for 8 hours, 30 minutes is acceptable as max.
 
-For more durability upload to S3 incase the EBS fails (rare but can loose all your data)
+For more durability, upload to S3 incase the EBS fails (rare but can lose all your data)
