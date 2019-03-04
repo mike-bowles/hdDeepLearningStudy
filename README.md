@@ -1,6 +1,7 @@
 # hdDeepLearningStudy  
 Papers,code etc for deep learning study group  
-## Suggestions for future readings  
+## Suggestions for future readings
+https://github.com/zziz/pwc - Repository of award winning papers that also have code.
 https://arxiv.org/pdf/1605.06431v1.pdf - Deep nets are ensembles   
 https://arxiv.org/pdf/1602.08124v3.pdf - soa for parallelization  
 https://arxiv.org/pdf/1404.5997v2.pdf - parallel computation issues  
