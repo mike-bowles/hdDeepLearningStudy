@@ -1,5 +1,5 @@
 # hdDeepLearningStudy  
-Papers,code etc for deep learning study group  
+Papers,code etc for deep learning study group.  
 ## Suggestions for future readings  
 https://arxiv.org/pdf/1605.06431v1.pdf - Deep nets are ensembles   
 https://arxiv.org/pdf/1602.08124v3.pdf - soa for parallelization  
